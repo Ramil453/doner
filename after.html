@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="images/logo.png" type="image/png" />
+		<link rel="stylesheet" href="after.css" />
+		<title>Doner House</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<button class="menu-burger" id="burger">
+				<span></span><span></span><span></span>
+			</button>
+			<p class="aligncenter">
+				<img src="images/logo.png" alt="Logo" class="logo" />
+			</p>
+			<nav class="header-menu">
+				<ul class="menu-ul">
+					<li class="menu-li" id="shaurma">Шаурма</li>
+					<li class="menu-li" id="pizza">Пицца</li>
+					<li class="menu-li" id="rolls">Роллы</li>
+					<li class="menu-li" id="reg">
+						<a href="index.html" class="menu-link">Выйти</a>
+					</li>
+					<li class="menu-li"></li>
+				</ul>
+				<div class="shopping">
+					<img
+						src="images/shopping-cart.png"
+						alt="Shopping-Cart"
+						class="shopping-cart"
+					/>
+				</div>
+				<div class="phone">
+					<img src="images/phone-icon.png" alt="Phone" class="phone-icon" />
+					<div class="phone-numbers">+7987654321</div>
+				</div>
+			</nav>
+		</header>
+		<div class="shopping-bg">
+			<div class="shopping-fg">
+				<div class="shopping-menu">
+					<div class="cart-item">
+						<img
+							src="images/shavuha.png"
+							alt="shaurma"
+							class="shopping-menu-photo"
+							id="menu-photo"
+						/>
+						<div class="shopping-menu-text">
+							<div class="shopping-menu-name">
+								<div class="shopping-name margin">Классика<br /></div>
+								<div class="counter">
+									<div class="count">1</div>
+									<div class="menu-count-btn margin-left">
+										<button class="minus changes" id="minus">-</button>
+										<div class="count-number" data-counter id="count-number">
+											0 шт.
+										</div>
+										<button class="plus changes" id="plus">+</button>
+									</div>
+								</div>
+								<img src="images/shop-car.png" alt="shop-cart" class="shop-car" />
+								<div class="deleviry-time">Доставка от 15 до 30 минут</div>
+							</div>
+
+							<div class="shopping-menu-price">
+								<div class="price">170</div>
+								руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shopping-fg-text">Пусто.</div>
+				<div class="cross">&times;</div>
+			</div>
+			<div class="shopping-feedback">
+				<div class="total-price">
+					<div class="total">Итого: <span class="total-number">0</span></div>
+				</div>
+				<div class="delete">&#128465;</div>
+			</div>
+		</div>
+		<div class="container">
+			<main class="main">
+				<div class="texts">
+					<h1 class="title-h1">Лучшая шаурма, пицца и роллы у нас!</h1>
+					<div class="main-text">
+						Качественные ингридиенты добавляют изысканный вкус во все блюда.
+					</div>
+				</div>
+				<div class="main-images">
+					<img src="images/shavuha.png" alt="shawarma" class="shavuha" />
+					<img src="images/pizza.png" alt="pizza" class="pizza" />
+					<img src="images/roll.png" alt="roll" class="roll" />
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div class="menu">
+					<!-- shavuha  -->
+
+					<h2 class="title-h2" id="title-shaurma">Шаурма</h2>
+					<div class="up-menu">
+						<div class="menu-shawerma" data-id="01">
+							<img
+								src="images/shavuha.png"
+								alt="shawerma image"
+								class="menu-photo"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Классика</div>
+								<div class="menu-price">170 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-shawerma" data-id="02">
+							<img
+								src="images/shavuha1.png"
+								alt="shawerma image"
+								class="menu-photo"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Донер Кебаб</div>
+								<div class="menu-price">190 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-shawerma" data-id="03">
+							<img
+								src="images/shavuha4.png"
+								alt="shawerma image"
+								class="menu-photo"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Люля Кебаб</div>
+								<div class="menu-price">190 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+					<div class="down-menu">
+						<div class="menu-shawerma" data-id="04">
+							<img
+								src="images/shavuha5.png"
+								alt="shawerma image"
+								class="menu-photo height"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Фахитос Чикен ролл</div>
+								<div class="menu-price">200 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-shawerma" data-id="05">
+							<img
+								src="images/shavuha2.png"
+								alt="shawerma image"
+								class="menu-photo"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Цезарь</div>
+								<div class="menu-price">180 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-shawerma" data-id="06">
+							<img
+								src="images/shavuha3.png"
+								alt="shawerma image"
+								class="menu-photo height"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Халапеньо</div>
+								<div class="menu-price">210 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- pizza  -->
+
+					<h2 class="title-h2" id="title-pizza">Пицца</h2>
+					<div class="up-menu">
+						<div class="menu-pizza" data-id="07">
+							<img
+								src="images/pizza6.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Маргарита</div>
+								<div class="menu-price">500 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-pizza" data-id="08">
+							<img
+								src="images/pizza2.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Монтанара</div>
+								<div class="menu-price">550 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-pizza" data-id="09">
+							<img
+								src="images/pizza5.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Сицилийская</div>
+								<div class="menu-price">480 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+					<div class="down-menu">
+						<div class="menu-pizza" data-id="10">
+							<img
+								src="images/pizza4.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Пепперони</div>
+								<div class="menu-price">520 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-pizza" data-id="11">
+							<img
+								src="images/pizza1.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Стоун</div>
+								<div class="menu-price">530 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-pizza" data-id="12">
+							<img
+								src="images/pizza3.png"
+								alt="pizza image"
+								class="menu-photo size"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Крудо</div>
+								<div class="menu-price">470 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- rolls  -->
+
+					<h2 class="title-h2" id="title-roll">Роллы</h2>
+					<div class="up-menu">
+						<div class="menu-roll" data-id="13">
+							<img src="images/roll6.png" alt="roll image" class="menu-photo" />
+							<div class="menu-info">
+								<div class="menu-name">Филадельфия</div>
+								<div class="menu-price">320 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-roll" data-id="14">
+							<img src="images/roll3.png" alt="roll image" class="menu-photo" />
+							<div class="menu-info">
+								<div class="menu-name">Хрустящий</div>
+								<div class="menu-price">310 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-roll" data-id="15">
+							<img
+								src="images/roll1.png"
+								alt="roll image"
+								class="menu-photo height"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Калифорния</div>
+								<div class="menu-price">340 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+					<div class="down-menu">
+						<div class="menu-roll" data-id="16">
+							<img src="images/roll4.png" alt="roll image" class="menu-photo" />
+							<div class="menu-info">
+								<div class="menu-name">Овощной</div>
+								<div class="menu-price">390 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-roll" data-id="17">
+							<img src="images/roll5.png" alt="roll image" class="menu-photo" />
+							<div class="menu-info">
+								<div class="menu-name">Вулкан</div>
+								<div class="menu-price">375 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+						<div class="menu-roll" data-id="18">
+							<img
+								src="images/roll2.png"
+								alt="roll image"
+								class="menu-photo height"
+							/>
+							<div class="menu-info">
+								<div class="menu-name">Канада</div>
+								<div class="menu-price">420 руб.</div>
+								<div class="menu-count-btn">
+									<button class="minus">-</button>
+									<div class="count-number" data-counter>0</div>
+									<button class="plus">+</button>
+								</div>
+								<button data-cart class="menu-button">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="location">
+					<h2 class="title-h2">Где мы находимся</h2>
+
+					<iframe
+						src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeb2b25dd02f399d562a5b70d9f381b2773a539f510497c2ab0e24ff78b08acd9&amp;source=constructor"
+						width="1200"
+						height="600"
+						frameborder="0"
+						class="map"
+					></iframe>
+				</div>
+			</main>
+
+			<!-- footer  -->
+
+			<footer class="footer">
+				<img src="images/logo.png" alt="Logo" class="logo" />
+				<div class="social">
+					<a href="https://www.youtube.com/watch?v=ZBiLGopulzI" target="_blank">
+						<img src="images/yt.png" alt="YouTube" class="yt" />
+					</a>
+					<a href="https://www.instagram.com/" target="_blank">
+						<img src="images/insta.png" alt="Instagram" class="inst" />
+					</a>
+					<a href="https://vk.com/donerhouse74" target="_blank">
+						<img src="images/vk.png" alt="VK" class="vk" />
+					</a>
+				</div>
+				<div class="phone">
+					<img src="images/phone-icon.png" alt="Phone" class="phone-icon" />
+					<div class="phone-numbers">+7987654321</div>
+				</div>
+			</footer>
+		</div>
+		<script src="after.js"></script>
+	</body>
+</html>
